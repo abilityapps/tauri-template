@@ -1,11 +1,11 @@
 import "./App.css";
 
+import { invoke } from "@tauri-apps/api/core";
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import { ThemeToggle } from "./components/theme-toggle";
 import { Button } from "./components/ui/button";
 import { Input } from "./components/ui/input";
-import { ThemeToggle } from "./components/theme-toggle";
-import { invoke } from "@tauri-apps/api/core";
-import reactLogo from "./assets/react.svg";
-import { useState } from "react";
 
 function App() {
 	const [greetMsg, setGreetMsg] = useState("");
