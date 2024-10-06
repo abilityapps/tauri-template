@@ -23,6 +23,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.3",
     "@tauri-apps/cli": ">=2.0.0",
     "@types/node": "^22.7.4",
     "@types/react": "^18.2.15",
