@@ -4,8 +4,8 @@
 	"version": "0.1.0",
 	"type": "module",
 	"scripts": {
-		"dev": "vite",
-		"build": "tsc && vite build",
+		"dev": "bunx --bun vite",
+		"build": "tsc && bunx --bun vite build",
 		"preview": "vite preview",
 		"tauri": "tauri"
 	},
