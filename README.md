@@ -18,7 +18,7 @@ This template should help get you started developing completely local, cross-pla
 
     `postgres://postgres@localhost/<name>` for Postgres
 
-3. `sqlx database create` creates your new database. Run in `src-tauri/`.
+3. `sqlx database create` creates your new database. Run in `src-tauri/`
 
     (`sqlx database drop` will delete the database specified in `DATABASE_URL`)
 4. `sqlx migrate add <name>` creates a migration file in `migrations/<timestamp>-<name>.sql` . Add your database schema changes here.
@@ -31,3 +31,18 @@ Go [here](https://github.com/launchbadge/sqlx/blob/main/sqlx-cli/README.md#rever
 [VS Code](https://code.visualstudio.com/) 
 
 Install all the recommendations from `.vscode/extensions.json`. This should be an automatic popup.
+
+## Stack
+
+### Backend
+- [Tauri](http://tauri.app/)
+- [Postgres](https://www.postgresql.org) | [SQLite](https://www.sqlite.org) with [sqlx](https://github.com/launchbadge/sqlx)
+
+    Easiest way to use Postgres on Mac is [Postgres.app](https://postgresapp.com)
+
+### Frontend
+- [React](http://react.dev/)
+- [Bun](https://bun.sh) + [Vite](https://vite.dev)
+- [Tailwindcss](https://tailwindcss.com)
+- [shadcn/ui](https://ui.shadcn.com)
+- [Biomejs](https://biomejs.dev)
