@@ -43,6 +43,7 @@ Install all the recommendations from `.vscode/extensions.json`. This should be a
 ### Frontend
 - [React](http://react.dev/)
 - [Bun](https://bun.sh) + [Vite](https://vite.dev)
+- [Tanstack Router](https://tanstack.com/router/latest)
 - [Tailwindcss](https://tailwindcss.com)
 - [shadcn/ui](https://ui.shadcn.com)
 - [Biomejs](https://biomejs.dev)
