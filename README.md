@@ -26,6 +26,11 @@ This template should help get you started developing completely local, cross-pla
 
 Go [here](https://github.com/launchbadge/sqlx/blob/main/sqlx-cli/README.md#reverting-migrations) for information on migration reverts.
 
+Rust does not support cetain database types. You must create serializers for those data types.
+Read here for [Postgres](https://docs.rs/sqlx/latest/sqlx/postgres/types/index.html) and here for  [Sqlite](https://docs.rs/sqlx/latest/sqlx/sqlite/types/).
+
+You can look in [this repo](https://github.com/shouryan01/weekability/blob/main/src-tauri/src/db/schema.rs) for an example on how to serialize Postgres `Numeric` and `Date` types in Rust using the `time` and `rust_decimal` crates.
+
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) 
