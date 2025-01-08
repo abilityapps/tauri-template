@@ -26,3 +26,4 @@ tauri-plugin-sql = { version = "2", features = ["postgres", "sqlite"] }
 sqlx = "0.8.2"
 dotenv = "0.15.0"
 tokio = "1.41.0"
+anyhow = "1.0.89"
