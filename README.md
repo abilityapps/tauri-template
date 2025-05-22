@@ -12,9 +12,6 @@ This template should help get you started developing completely local, cross-pla
 By default, `tauri-template` comes with an embedded SQLite database named `tauri-template.db`.
 You can override this with the following steps:
 
-
-
-
 1. Choose between `SQLite` or `PostgreSQL`
 2. Set `DATABASE_URL` in `src-tauri/.env`:
 
@@ -57,3 +54,6 @@ Easiest way to use Postgres on Mac is [Postgres.app](https://postgresapp.com)
 - [Tailwindcss](https://tailwindcss.com)
 - [shadcn/ui](https://ui.shadcn.com)
 - [Biomejs](https://biomejs.dev)
+
+This template was manually created. For future project creations, you can use the new (and excellent!) `create-tsrouter-app@latest` with your favorite package manager!
+
